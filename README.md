@@ -32,7 +32,7 @@ Passes an argument object that exposes an integer 'index', reporting to the base
 `let readable = worksheet.openReadStream()`
 
 ####Worksheet Readable
-Behavior is identical too a Readable stream in 'object' mode. Each data object is an array containing one row of sheet data.
+Behavior is identical to a Readable stream in 'object' mode. Each data object is an array containing one row of sheet data.
 
 ####Utility Method: objectify()
 Data objects are bare arrays. This method is provided to allow flexibility in finding (or defining) your own header row. Converts bare row into object based on key-value pairs.
